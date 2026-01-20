@@ -16,7 +16,7 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: "Only POST allowed" });
   }
 
-  const GS_URL = "https://script.google.com/macros/s/AKfycbyMUX3Qm61XHVQAHaESAp9dFrJK_b32gJS362Uo91ujrWq6221GMF2c9Fyds7_eHY4zVQ/exec";
+  const GS_URL = "https://script.google.com/macros/s/AKfycbxOlqSfUQsAcTjoxnDgtbh7fnNw9Knxo9x2bcG5RwpqiiT1yUH6LakPxLwygn6s2BAI/exec";
 
   try {
     // Daten für Google vorbereiten
